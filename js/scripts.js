@@ -1,12 +1,26 @@
-function myFunction(){
-    var date = parseFloat(prompt("Your Date of Birth:"));
-    var month = parseFloat(prompt("Your Month of Birth:"));
-    var year = parseFloat(prompt("Your Year of Birth:"));
+var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+function validateFunction(){
+
+    var akan = ""
+
+    var gender = document.forms["userinput"]["gender"].value;
+
+    var date = document.forms["userinput"]["date"].value;
+
+    var confirmDate = new Date(date); //assign date format
+
+    var confirmDay = confirmDate.getDay();
+
+    if (gender === male){
+        akan = maleNames[confirmDay];
+    } else if (gender === female){
+        akan = femaleNames[confirmDay]
+    } else {
+        alert ("Invalid input. Try again");
+    }
+
+    alert("Your Akan name is " + akan);
+    // return akan;
 }
-
-var gender = function() {
-    document.getElementId('gender');
-};
-
-var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
