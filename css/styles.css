@@ -14,3 +14,10 @@ html{
     margin-left: 0px;
 
 }
+
+.history{
+    border: 1px solid black;
+    width: 600px;
+    text-align: center;
+    
+}
