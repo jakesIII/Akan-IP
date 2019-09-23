@@ -13,9 +13,9 @@ function validateFunction(){
 
     var confirmDay = confirmDate.getDay();
 
-    if (gender === male){
+    if (gender === "Male"){
         akan = maleNames[confirmDay];
-    } else if (gender === female){
+    } else if (gender === "Female"){
         akan = femaleNames[confirmDay]
     } else {
         alert ("Invalid input. Try again");
