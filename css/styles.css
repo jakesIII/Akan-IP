@@ -4,23 +4,25 @@ html{
 }
 
 .header{
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_82Of-EejZzMrPbQsmUCxftDu5xG-3cXBrJwNLafzSQ4C9Ii9w);
+    background-image:url(http://kentetwist.files.wordpress.com/2009/08/aa241a06thu.jpg);
     background-repeat: no-repeat;
     height: 150px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 24px;
     width: 100%;
-    margin-left: 0px;
+    /* margin-left: 0px; */
+    color: rgb(207, 221, 220);
+    text-shadow: 2px 2px 5px black;
 
 }
 
 .history{
     /* border: 1px solid black; */
-    width: 600px;
+    /* width: 600px; */
     text-align: center;
-    padding: 10px;
-    margin: 10%;
+    /* padding: 10px; */
+    margin: 10px ;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px; 
 
@@ -28,8 +30,8 @@ html{
 
 .form{
     /* border: 1px solid black; */
-    width: 400px;
-    height: 400px;
+    /* width: 400px; */
+    /* height: 400px; */
     padding: 10px;
     text-align: center;
     box-shadow: 2px 2px 5px gray;
@@ -51,3 +53,12 @@ select:hover{
     box-shadow: 3px 3px 6px;
 }
 
+input{
+    margin: 10px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+body{
+    
+}
