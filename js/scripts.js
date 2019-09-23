@@ -3,7 +3,7 @@ var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 function validateFunction(){
 
-    var akan = "" //to receive relevant 
+    var akan = "" //to receive relevant akan male/female name
 
     var gender = document.forms["userinput"]["gender"].value;
 
